@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container{
+    width: 1120px;
+    height: 383px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #949292;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.header img{
+    width: 30px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .title {
+    flex-grow: 1;
+}
+
+.profile {
+    width: 46px;
+    height: 46px;
+    background-color: rgb(110, 109, 109);
+    border-radius: 50%;
+}
+
+.top-animes h2 {
+    margin-top: 35px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #d3d3d3;
+    width: 170px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.read-a-manga h2{
+    margin-top: 35px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.card-container-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.cardtwo {
+    background-color: #d3d3d3;
+    width: 265px;
+    height: 80px;
+    border-radius: 10px;   
+}
+
+.added h2{
+    margin-top: 35px;
+    font-size: 22px;
+    text-align: left;
+}
+
+
+
